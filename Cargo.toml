@@ -1,6 +1,7 @@
 [package]
 name = "tongsuo-src"
-version = "840.2.0+8.4.0"
+version = "850.0.1+8.5.0"
+edition = "2024"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/zh-jq/tongsuo-src-rs"

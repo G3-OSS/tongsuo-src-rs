@@ -11,16 +11,16 @@ This crate is based on [openssl-src-rs](https://github.com/alexcrichton/openssl-
 ## Versioning
 
 There are currently two maintained branches:
-* `main` which builds Tongsuo 8.4.0
+* `main` which builds Tongsuo 8.5.0-pre1
 * `stable-8.3` which builds Tongsuo 8.3.2
 
 The crates versions follow the `X.Y.Z+B` pattern:
 * The major version `X` is the upstream OpenSSL version:
   * `832` for 8.3.2
-  * `840` for 8.4.0 (to be higher than `832`)
+  * `850` for 8.5.0 (to be higher than `832`)
 * The minor `Y` and patch `Z` versions are incremented when making changes
   to the crate, either OpenSSL update or internal changes.
-* `B` contains the full upstream OpenSSL version, like `8.3.2` or `8.4.0-pre1`.
+* `B` contains the full upstream OpenSSL version, like `8.3.2` or `8.5.0-pre1`.
   Note that this field is actually ignored in comparisons and only there for
   documentation.
 
