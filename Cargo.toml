@@ -17,6 +17,8 @@ exclude = [
 default = []
 # Forces configuring Engine module support.
 force-engine = []
+# Enable kTLS support
+ktls = []
 
 [workspace]
 members = ['testcrate']
