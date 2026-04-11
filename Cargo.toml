@@ -19,6 +19,8 @@ default = []
 force-engine = []
 # Enable kTLS support
 ktls = []
+# Disable DSO API support
+no-dso = []
 
 [workspace]
 members = ['testcrate']
