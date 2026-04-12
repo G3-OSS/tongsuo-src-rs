@@ -2,7 +2,7 @@ extern crate libc;
 
 use libc::c_ulong;
 
-extern "C" {
+unsafe extern "C" {
     pub fn OpenSSL_version_num() -> c_ulong;
 }
 
