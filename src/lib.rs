@@ -168,7 +168,7 @@ impl Build {
             // native and cross builds.
             configure.arg(&format!(
                 "--prefix={}",
-                 install_dir
+                install_dir
                     .to_str()
                     .ok_or("bad install_dir")?
                     .replace("\\", "/")
@@ -392,7 +392,7 @@ impl Build {
                 return Err(format!(
                     "don't know how to configure OpenSSL for {}",
                     target
-                ))
+                ));
             }
         };
 

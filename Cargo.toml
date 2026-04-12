@@ -1,22 +1,22 @@
 [package]
 name = "tongsuo-src"
-version = "850.0.2+8.5.0"
+version = "850.0.3+8.5.0-pre1"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/zh-jq/tongsuo-src-rs"
+repository = "https://github.com/VEY-OSS/tongsuo-src-rs"
 description = """
 Source of Tongsuo and logic to build it.
 """
 exclude = [
+  '.github',
+  '.gitignore',
+  '.gitmodules',
+  'ci',
   'tongsuo/fuzz/corpora/*',
   'tongsuo/test/recipes/*',
   'tongsuo/rpm/*',
   'tongsuo/.gitattributes',
-  '.github',
-  'ci',
-  '.gitignore',
-  '.gitmodules',
 ]
 
 [features]
