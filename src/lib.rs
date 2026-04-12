@@ -189,7 +189,6 @@ impl Build {
             .arg("no-zlib")
             .arg("no-zlib-dynamic")
             .arg("enable-ntls")
-            .arg("enable-cert-compression")
             // Avoid multilib-postfix for build targets that specify it
             .arg("--libdir=lib");
 
